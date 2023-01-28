@@ -1,9 +1,9 @@
 import * as React from "react";
 
-import Welcome from "../components/Welcome";
-import About from "../components/About";
-import Experience from "../components/Experience";
-import Socials from "../components/Socials";
+import About from "../components/sections/About";
+import Experience from "../components/sections/Experience";
+import Socials from "../components/sections/Socials";
+import Welcome from "../components/sections/Welcome";
 
 export default function IndexPage() {
   return (
