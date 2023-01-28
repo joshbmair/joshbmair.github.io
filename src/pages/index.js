@@ -1,10 +1,17 @@
 import * as React from "react";
 
+import Welcome from "../components/Welcome";
+import About from "../components/About";
+import Experience from "../components/Experience";
+import Socials from "../components/Socials";
+
 export default function IndexPage() {
   return (
     <>
-      <h1>Hi, I'm Josh Birlingmair.</h1>
-      <p>Welcome to my personal site!</p>
+      <Welcome />
+      <About />
+      <Experience />
+      <Socials />
     </>
   );
 }
