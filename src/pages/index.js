@@ -1,5 +1,6 @@
 import * as React from "react";
 
+import "../styles/global.css"
 import About from "../components/sections/About";
 import Experience from "../components/sections/Experience";
 import Navigation from "../components/Navigation";
