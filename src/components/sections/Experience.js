@@ -4,7 +4,7 @@ export default function Experience() {
   return (
     <>
       <h1>My experience</h1>
-      <p>TODO</p>
+      <p>Coming soon.</p>
     </>
   );
 }
