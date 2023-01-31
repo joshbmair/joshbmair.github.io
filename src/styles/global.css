@@ -9,6 +9,8 @@ html {
 
 h1 {
   font-size: 72px;
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 72, 72);
 }
 
 .sections {
@@ -36,7 +38,8 @@ h1 {
 }
 
 .nav-section:hover {
-  background-color: #ffffff;
-  color: #222222;
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 72, 72);
+  text-decoration-thickness: 2px;
   cursor: pointer;
 }
