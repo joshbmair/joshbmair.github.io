@@ -22,3 +22,18 @@ export default function IndexPage() {
     </>
   );
 }
+
+export function Head() {
+  return (
+    <>
+      <meta chatset="utf-8" />
+      <meta name="description" content="Josh Birlingmair's personal site" />
+      <meta
+        name="keywords"
+        content="Josh, Birlingmair, Personal, Site, Software, About, Experience, Socials, Gatsby.js, Software"
+      />
+      <meta name="author" content="Josh Birlingmair" />
+      <title>Josh Birlingmair</title>
+    </>
+  );
+}
