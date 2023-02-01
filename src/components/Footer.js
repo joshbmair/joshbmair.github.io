@@ -5,17 +5,34 @@ export default function Footer() {
   return (
     <footer>
       <p>
-      <small>This site was built by Josh Birlingmair using Gatsby.js</small>
+        <small>This site was built by Josh Birlingmair using Gatsby.js</small>
       </p>
       <p>
-        <BsGithub />
+        <LinkedIcon href="https://github.com/joshbmair" icon={<BsGithub />} />
         &nbsp;
-        <BsLinkedin />
+        <LinkedIcon
+          href="https://www.linkedin.com/in/josh-birlingmair-46b85317b"
+          icon={<BsLinkedin />}
+        />
         &nbsp;
-        <BsInstagram />
+        <LinkedIcon
+          href="https://www.instagram.com/josh.bmr"
+          icon={<BsInstagram />}
+        />
         &nbsp;
-        <BsFacebook />
+        <LinkedIcon
+          href="https://www.facebook.com/josh.birlingmair"
+          icon={<BsFacebook />}
+        />
       </p>
     </footer>
+  );
+}
+
+function LinkedIcon({ icon, href }) {
+  return (
+    <a href={href} target="_blank">
+      {icon}
+    </a>
   );
 }
