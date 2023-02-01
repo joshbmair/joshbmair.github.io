@@ -11,20 +11,26 @@ export default function About() {
           I just received a Bachelor of Science degree in Computer Science from
           Colorado State University
         </h2>
-        Colorado State University is located in Fort Collins, Colorado. That
-        happens to also be my hometown!
+        <p>
+          Colorado State University is located in Fort Collins, Colorado. That
+          happens to also be my hometown!
+        </p>
         <h2>
-          Now, I'm about to start my job as a software developer for Epic
-          Systems.
+            Now, I'm about to start my job as a software developer for Epic
+            Systems.
         </h2>
-        Epic is located in Verona, Wisconsin and develops healthcare software.
-        I'm looking forward to the experience of a new town and a new job!
+        <p>
+          Epic is located in Verona, Wisconsin and develops healthcare software.
+          I'm looking forward to the experience of a new town and a new job!
+        </p>
         <h2>
-          Before I got my job at Epic, I was an IT Specialist/GIS Analyst intern
+          Before I got my job at Epic, I was an IT specialist/GIS analyst intern
           at the USDA and Colorado State University.
         </h2>
-        I built some impactful tools and interesting projects that you can (and
-        should) read more about below.
+        <p>
+          I built some impactful tools and interesting projects that you can
+          (and should) read more about below.
+        </p>
       </div>
     </>
   );
