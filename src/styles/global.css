@@ -30,6 +30,10 @@ h1 {
   margin: 12% 20% 0% 20%;
 }
 
+.linked-icon {
+  padding: 4px 4px 4px 4px;
+}
+
 .navigation {
   background-color: rgb(34, 34, 34, 0.8);
   border-color: rgb(255, 255, 255, 0.8);
