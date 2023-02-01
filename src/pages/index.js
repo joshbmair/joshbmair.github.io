@@ -10,9 +10,7 @@ import Welcome from "../components/sections/Welcome";
 export default function IndexPage() {
   return (
     <>
-      <div className="navigation">
-        <Navigation />
-      </div>
+      <Navigation />
       <div className="sections">
         <Welcome />
         <About />
