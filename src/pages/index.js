@@ -1,10 +1,10 @@
 import * as React from "react";
 
-import "../styles/global.css"
+import "../styles/global.css";
 import About from "../components/sections/About";
 import Experience from "../components/sections/Experience";
 import Navigation from "../components/Navigation";
-import Socials from "../components/sections/Socials";
+import Footer from "../components/Footer";
 import Welcome from "../components/sections/Welcome";
 
 export default function IndexPage() {
@@ -17,8 +17,8 @@ export default function IndexPage() {
         <Welcome />
         <About />
         <Experience />
-        <Socials />
       </div>
+      <Footer />
     </>
   );
 }
