@@ -1,5 +1,7 @@
 import * as React from "react";
 
+import "../../styles/section.css";
+
 export default function Welcome() {
   return (
     <>

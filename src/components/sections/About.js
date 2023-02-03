@@ -1,5 +1,7 @@
 import * as React from "react";
 
+import "../../styles/section.css";
+
 export default function About() {
   return (
     <>
@@ -16,8 +18,8 @@ export default function About() {
           happens to also be my hometown!
         </p>
         <h2>
-            Now, I'm about to start my job as a software developer for Epic
-            Systems.
+          Now, I'm about to start my job as a software developer for Epic
+          Systems.
         </h2>
         <p>
           Epic is located in Verona, Wisconsin and develops healthcare software.
