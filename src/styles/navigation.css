@@ -1,0 +1,26 @@
+nav {
+  background-color: rgb(34, 34, 34, 0.8);
+  border-color: rgb(255, 255, 255, 0.8);
+  border-width: 1px;
+  border-style: none none solid none;
+  color: rgb(255, 255, 255);
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding: 16px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-section {
+  margin: 0px 32px 0px 32px;
+  padding: 8px 16px 8px 16px;
+}
+
+.nav-section:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 72, 72);
+  text-decoration-thickness: 2px;
+  cursor: pointer;
+}
