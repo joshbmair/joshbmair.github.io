@@ -1,6 +1,8 @@
 import * as React from "react";
 import { BsInstagram, BsFacebook, BsLinkedin, BsGithub } from "react-icons/bs";
 
+import "../styles/footer.css";
+
 const socialProfiles = [
   {
     href: "https://github.com/joshbmair",
@@ -28,12 +30,7 @@ export default function Footer() {
       </p>
       <p>
         {socialProfiles.map((profile) => {
-          return (
-            <LinkedIcon
-              href={profile.href}
-              icon={profile.icon}
-            />
-          );
+          return <LinkedIcon href={profile.href} icon={profile.icon} />;
         })}
       </p>
     </footer>
