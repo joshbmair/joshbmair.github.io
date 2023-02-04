@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import { BsInstagram, BsFacebook, BsLinkedin, BsGithub } from "react-icons/bs";
 
 import "../styles/footer.css";
