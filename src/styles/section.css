@@ -4,10 +4,6 @@ h1 {
   text-decoration-color: rgb(255, 72, 72);
 }
 
-.section-title {
-  width: 64%;
-}
-
 .section-summary {
-  padding: 0px 16px 1px 16px;
+  padding-bottom: 8%;
 }
