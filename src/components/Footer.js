@@ -39,7 +39,7 @@ export default function Footer() {
 
 function LinkedIcon({ icon, href }) {
   return (
-    <a className="linked-icon" href={href} target="_blank">
+    <a className="linked-icon" href={href} target="_blank" rel="noreferrer" >
       {icon}
     </a>
   );
