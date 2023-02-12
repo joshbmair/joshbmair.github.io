@@ -5,12 +5,9 @@ h1 {
 }
 
 .section-title {
-  margin-left: -8%;
   width: 64%;
 }
 
 .section-summary {
   padding: 0px 16px 1px 16px;
-  margin-left: 8%;
-  margin-top: -4%;
 }
