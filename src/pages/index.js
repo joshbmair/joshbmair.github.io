@@ -3,14 +3,12 @@ import React from "react";
 import "../styles/index.css";
 import About from "../components/sections/About";
 import Experience from "../components/sections/Experience";
-import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import Welcome from "../components/sections/Welcome";
 
 export default function IndexPage() {
   return (
     <>
-      <Navigation />
       <div className="sections">
         <Welcome />
         <About />
