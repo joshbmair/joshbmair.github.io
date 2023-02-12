@@ -1,15 +1,14 @@
 {
-  "name": "josh-birlingmair",
-  "version": "1.0.0",
+  "name": "personal-site",
+  "version": "current",
   "private": true,
-  "description": "josh-birlingmair",
+  "description": "Josh Birlingmair's personal site",
   "author": "Josh Birlingmair",
   "keywords": [
-    "gatsby"
+    "gatsby, personal, site"
   ],
   "scripts": {
     "develop": "gatsby develop",
-    "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
