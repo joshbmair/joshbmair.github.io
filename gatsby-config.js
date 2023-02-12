@@ -6,5 +6,12 @@ module.exports = {
     title: `Josh Birlingmair`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
-}
+  plugins: [
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        icon: "src/images/jb-icon.png",
+      },
+    },
+  ],
+};
