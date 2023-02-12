@@ -11,3 +11,7 @@ html {
   background-color: rgb(255, 255, 255);
   color: rgb(34, 34, 34);
 }
+
+.sections {
+  margin: 12% 20% 0% 20%;
+}
