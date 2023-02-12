@@ -5,9 +5,9 @@ import "../../styles/section.css";
 export default function Welcome() {
   return (
     <>
-      <div className="section-title">
-        <h1>Hi, I'm Josh Birlingmair</h1>
-      </div>
+      <h1>
+        <span className="section-title">Hi, I'm Josh Birlingmair</span>
+      </h1>
       <div className="section-summary">
         <p>
           Welcome to my personal site. Scroll down to learn more about me and

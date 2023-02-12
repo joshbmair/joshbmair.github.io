@@ -5,9 +5,11 @@ import "../../styles/section.css";
 export default function Experience() {
   return (
     <>
-      <div className="section-title">
-        <h1>My experience</h1>
-      </div>
+      <h1>
+        <span className="section-title">
+          My experience
+        </span>
+      </h1>
       <div className="section-summary">
         <h2>2 years with the USDA Partnerships for Data Innovation</h2>
         <p>

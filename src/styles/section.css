@@ -1,9 +1,13 @@
 h1 {
   font-size: 72px;
-  text-decoration: underline;
-  text-decoration-color: rgb(255, 72, 72);
 }
 
 .section-summary {
   padding-bottom: 8%;
+}
+
+.section-title {
+  padding: 16px;
+  background-color: rgb(255, 72, 72);
+  border-radius: 4px;
 }

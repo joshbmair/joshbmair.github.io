@@ -5,9 +5,9 @@ import "../../styles/section.css";
 export default function About() {
   return (
     <>
-      <div className="section-title">
-        <h1>A little bit about me</h1>
-      </div>
+      <h1>
+        <span className="section-title">A little bit about me</span>
+      </h1>
       <div className="section-summary">
         <h2>
           I just received a Bachelor of Science degree in Computer Science from
