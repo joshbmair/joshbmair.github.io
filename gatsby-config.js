@@ -13,5 +13,6 @@ module.exports = {
         icon: "src/images/jb-icon.png",
       },
     },
+    "gatsby-plugin-sass",
   ],
 };

@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../styles/index.css";
+import "../styles/index.scss";
 import About from "../components/sections/About.jsx";
 import Experience from "../components/sections/Experience.jsx";
 import Footer from "../components/Footer.jsx";

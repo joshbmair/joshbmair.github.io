@@ -1,7 +1,7 @@
 import React from "react";
 import { BsInstagram, BsFacebook, BsLinkedin, BsGithub } from "react-icons/bs";
 
-import "../styles/footer.css";
+import "../styles/footer.scss";
 
 const socialProfiles = [
   {
