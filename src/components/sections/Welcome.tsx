@@ -1,19 +1,16 @@
 import React, { FunctionComponent } from "react";
 
-import "../../styles/section.scss";
+import Section from "./Section";
 
 const Welcome: FunctionComponent = (): JSX.Element => {
   return (
     <>
-      <h1>
-        <span className="section-title">Hi, I'm Josh Birlingmair</span>
-      </h1>
-      <div className="section-summary">
+      <Section title="Hi, I'm Josh Birlingmair">
         <p>
           Welcome to my personal site. Scroll down to learn more about me and
           browse my work experience.
         </p>
-      </div>
+      </Section>
     </>
   );
 };

@@ -1,14 +1,11 @@
 import React, { FunctionComponent } from "react";
 
-import "../../styles/section.scss";
+import Section from "./Section";
 
 const Experience: FunctionComponent = (): JSX.Element => {
   return (
     <>
-      <h1>
-        <span className="section-title">My experience</span>
-      </h1>
-      <div className="section-summary">
+      <Section title="My experience">
         <h2>2 years with the USDA Partnerships for Data Innovation</h2>
         <p>
           I worked on many projects as a IT specialist/GIS analyst. One project
@@ -24,7 +21,7 @@ const Experience: FunctionComponent = (): JSX.Element => {
           plant varieties stored by the Agricultural Marketing Service. The data
           can be exported in CSV or PDF form.
         </p>
-      </div>
+      </Section>
     </>
   );
 };

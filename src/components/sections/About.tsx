@@ -1,14 +1,11 @@
 import React, { FunctionComponent } from "react";
 
-import "../../styles/section.scss";
+import Section from "./Section";
 
 const About: FunctionComponent = (): JSX.Element => {
   return (
     <>
-      <h1>
-        <span className="section-title">A little bit about me</span>
-      </h1>
-      <div className="section-summary">
+      <Section title="A little bit about me">
         <h2>
           I received a Bachelor of Science degree in Computer Science from
           Colorado State University in 2022
@@ -30,7 +27,7 @@ const About: FunctionComponent = (): JSX.Element => {
           I built some impactful tools and interesting projects that you can
           (and should) read more about below.
         </p>
-      </div>
+      </Section>
     </>
   );
 }
