@@ -1,10 +1,10 @@
 import React from "react";
 
 import "../styles/index.scss";
-import About from "../components/sections/About.jsx";
-import Experience from "../components/sections/Experience.jsx";
-import Footer from "../components/Footer.jsx";
-import Welcome from "../components/sections/Welcome.jsx";
+import About from "../components/sections/About.tsx";
+import Experience from "../components/sections/Experience.tsx";
+import Footer from "../components/Footer.tsx";
+import Welcome from "../components/sections/Welcome.tsx";
 
 export default function IndexPage() {
   return (
