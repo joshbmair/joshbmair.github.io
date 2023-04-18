@@ -20,7 +20,7 @@ const IndexPage: FunctionComponent = (): JSX.Element => {
   );
 };
 
-const Head: HeadFC = (): JSX.Element => {
+export const Head: HeadFC = (): JSX.Element => {
   return (
     <>
       <meta charSet="utf-8" />
