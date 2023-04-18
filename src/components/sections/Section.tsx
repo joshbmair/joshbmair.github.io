@@ -1,6 +1,6 @@
 import React, { FunctionComponent, ReactNode } from "react";
 
-import "../../styles/section.scss";
+import "./section.scss";
 
 interface Props {
   title: string;

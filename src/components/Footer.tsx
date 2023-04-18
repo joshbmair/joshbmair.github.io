@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from "react";
 import { BsInstagram, BsFacebook, BsLinkedin, BsGithub } from "react-icons/bs";
 
-import "../styles/footer.scss";
+import "./footer.scss";
 
 interface SocialProfile {
   key: number;

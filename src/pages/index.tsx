@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from "react";
 
-import "../styles/index.scss";
+import "./index.scss";
 import About from "../components/sections/About";
 import Experience from "../components/sections/Experience";
 import Footer from "../components/Footer";
