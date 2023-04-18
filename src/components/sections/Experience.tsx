@@ -1,14 +1,12 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 
 import "../../styles/section.scss";
 
-export default function Experience() {
+const Experience: FunctionComponent = (): JSX.Element => {
   return (
     <>
       <h1>
-        <span className="section-title">
-          My experience
-        </span>
+        <span className="section-title">My experience</span>
       </h1>
       <div className="section-summary">
         <h2>2 years with the USDA Partnerships for Data Innovation</h2>
@@ -29,4 +27,6 @@ export default function Experience() {
       </div>
     </>
   );
-}
+};
+
+export default Experience;

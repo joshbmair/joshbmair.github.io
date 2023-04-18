@@ -1,8 +1,8 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 
 import "../../styles/section.scss";
 
-export default function Welcome() {
+const Welcome: FunctionComponent = (): JSX.Element => {
   return (
     <>
       <h1>
@@ -16,4 +16,6 @@ export default function Welcome() {
       </div>
     </>
   );
-}
+};
+
+export default Welcome;

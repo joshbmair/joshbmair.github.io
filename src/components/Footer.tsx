@@ -1,9 +1,15 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 import { BsInstagram, BsFacebook, BsLinkedin, BsGithub } from "react-icons/bs";
 
 import "../styles/footer.scss";
 
-const socialProfiles = [
+interface SocialProfile {
+  key: number;
+  href: string;
+  icon: JSX.Element
+}
+
+const socialProfiles: SocialProfile[] = [
   {
     key: 1,
     href: "https://github.com/joshbmair",
@@ -26,25 +32,39 @@ const socialProfiles = [
   },
 ];
 
-export default function Footer() {
+const Footer: FunctionComponent = (): JSX.Element => {
   return (
     <footer>
       <p>
         <small>This site was built by Josh Birlingmair using Gatsby.js</small>
       </p>
-      <p >
-        {socialProfiles.map((profile) => {
-          return <LinkedIcon href={profile.href} icon={profile.icon} key={profile.key} />;
+      <p>
+        {socialProfiles.map((profile: SocialProfile) => {
+          return (
+            <LinkedIcon
+              href={profile.href}
+              icon={profile.icon}
+              key={profile.key}
+            />
+          );
         })}
       </p>
     </footer>
   );
 }
 
-function LinkedIcon({ href, icon }) {
+type LinkedIconProps = SocialProfile
+
+const LinkedIcon: FunctionComponent<LinkedIconProps> = (
+  props: LinkedIconProps
+): JSX.Element => {
+  const { href, icon } = props;
+
   return (
-    <a className="linked-icon" href={href} rel="noreferrer" target="_blank" >
+    <a className="linked-icon" href={href} rel="noreferrer" target="_Íblank">
       {icon}
     </a>
   );
-}
+};
+
+export default Footer;

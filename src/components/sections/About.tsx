@@ -1,8 +1,8 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 
 import "../../styles/section.scss";
 
-export default function About() {
+const About: FunctionComponent = (): JSX.Element => {
   return (
     <>
       <h1>
@@ -34,3 +34,5 @@ export default function About() {
     </>
   );
 }
+
+export default About;
