@@ -1,12 +1,13 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 
 import "../styles/index.scss";
-import About from "../components/sections/About.tsx";
-import Experience from "../components/sections/Experience.tsx";
-import Footer from "../components/Footer.tsx";
-import Welcome from "../components/sections/Welcome.tsx";
+import About from "../components/sections/About";
+import Experience from "../components/sections/Experience";
+import Footer from "../components/Footer";
+import Welcome from "../components/sections/Welcome";
+import { HeadFC } from "gatsby";
 
-export default function IndexPage() {
+const IndexPage: FunctionComponent = (): JSX.Element => {
   return (
     <>
       <div className="sections">
@@ -17,12 +18,12 @@ export default function IndexPage() {
       <Footer />
     </>
   );
-}
+};
 
-export function Head() {
+const Head: HeadFC = (): JSX.Element => {
   return (
     <>
-      <meta chatset="utf-8" />
+      <meta charSet="utf-8" />
       <meta name="description" content="Josh Birlingmair's personal site" />
       <meta
         name="keywords"
@@ -32,4 +33,6 @@ export function Head() {
       <title>Josh Birlingmair</title>
     </>
   );
-}
+};
+
+export default IndexPage;
