@@ -11,14 +11,12 @@ const Section: FunctionComponent<Props> = (props: Props): JSX.Element => {
   const { title, children } = props;
 
   return (
-    <>
-      <h1>
-        <span className="section-title">{title}</span>
-      </h1>
-      <div className="section-summary">
-        {children}
+    <div className="section">
+      <div className="header">
+        <h1>{title}</h1>
       </div>
-    </>
+      <div className="body">{children}</div>
+    </div>
   );
 };
 
