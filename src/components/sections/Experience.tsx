@@ -1,11 +1,12 @@
 import React, { FunctionComponent } from "react";
+import { BsBriefcase } from "react-icons/bs";
 
 import Section from "./Section";
 
 const Experience: FunctionComponent = (): JSX.Element => {
   return (
     <>
-      <Section title="My experience">
+      <Section icon={<BsBriefcase className="icon" />} title="My experience">
         <h2>2 years with the USDA Partnerships for Data Innovation</h2>
         <p>
           I worked on many projects as a IT specialist/GIS analyst. One project

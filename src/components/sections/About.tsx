@@ -1,11 +1,12 @@
 import React, { FunctionComponent } from "react";
+import { BsBook } from "react-icons/bs";
 
 import Section from "./Section";
 
 const About: FunctionComponent = (): JSX.Element => {
   return (
     <>
-      <Section title="A little bit about me">
+      <Section icon={<BsBook className="icon" />} title="A little bit about me">
         <h2>
           I received a Bachelor of Science degree in Computer Science from
           Colorado State University in 2022
