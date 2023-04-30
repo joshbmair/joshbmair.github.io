@@ -10,11 +10,9 @@ import { HeadFC } from "gatsby";
 const IndexPage: FunctionComponent = (): JSX.Element => {
   return (
     <>
-      <div className="sections">
-        <Welcome />
-        <About />
-        <Experience />
-      </div>
+      <Welcome />
+      <About />
+      <Experience />
       <Footer />
     </>
   );

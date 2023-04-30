@@ -14,8 +14,10 @@ const Section: FunctionComponent<SectionProps> = (
   props: SectionContentProps
 ): JSX.Element => {
   return (
-    <div className="section">
-      <SectionContent {...props} />
+    <div className="page">
+      <div className="section">
+        <SectionContent {...props} />
+      </div>
     </div>
   );
 };

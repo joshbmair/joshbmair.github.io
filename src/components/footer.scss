@@ -1,5 +1,11 @@
+@import "../styles/constants.scss";
+
 a {
   color: inherit;
+}
+
+a:hover {
+  color: $red;
 }
 
 footer {
@@ -7,5 +13,5 @@ footer {
 }  
 
 .linked-icon {
-  padding: 4px;
+  padding: 1%;
 }
