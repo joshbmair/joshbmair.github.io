@@ -1,5 +1,13 @@
 @import "../styles/constants.scss";
 
+a {
+  color: inherit;
+
+  &:hover {
+    color: $red;
+  }
+}
+
 body,
 html {
   background-color: $black;
@@ -11,5 +19,5 @@ html {
 
 ::selection {
   background-color: $white;
-  color: rgb(32, 32, 40);
+  color: $black;
 }
