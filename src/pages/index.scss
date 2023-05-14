@@ -2,9 +2,13 @@
 
 a {
   color: inherit;
+  text-decoration: underline;
+  text-decoration-color: $red;
+  text-decoration-thickness: 2px;
 
   &:hover {
     color: $red;
+    cursor: pointer;
   }
 }
 

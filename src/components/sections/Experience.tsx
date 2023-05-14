@@ -6,7 +6,7 @@ import Section from "./Section";
 const Experience: FunctionComponent = (): JSX.Element => {
   return (
     <>
-      <Section icon={<BsBriefcase className="icon" />} title="My experience">
+      <Section id="experience" icon={<BsBriefcase className="icon" />} title="My experience">
         <h2>2 years with the USDA Partnerships for Data Innovation</h2>
         <p>
           I worked on many projects as a IT specialist/GIS analyst. One project

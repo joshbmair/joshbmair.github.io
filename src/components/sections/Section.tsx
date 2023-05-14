@@ -3,6 +3,7 @@ import React, { FunctionComponent, ReactNode } from "react";
 import "./section.scss";
 
 interface SectionProps {
+  id: string;
   title: string;
   icon?: ReactNode;
   children: ReactNode;
@@ -13,9 +14,11 @@ type SectionContentProps = SectionProps;
 const Section: FunctionComponent<SectionProps> = (
   props: SectionContentProps
 ): JSX.Element => {
+  const { id } = props;
+
   return (
     <div className="page">
-      <div className="section">
+      <div id={id} className="section">
         <SectionContent {...props} />
       </div>
     </div>

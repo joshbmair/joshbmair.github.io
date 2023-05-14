@@ -6,7 +6,7 @@ import Section from "./Section";
 const About: FunctionComponent = (): JSX.Element => {
   return (
     <>
-      <Section icon={<BsBook className="icon" />} title="A little bit about me">
+      <Section id="about" icon={<BsBook className="icon" />} title="A little bit about me">
         <h2>
           I received a Bachelor of Science degree in Computer Science from
           Colorado State University in 2022
