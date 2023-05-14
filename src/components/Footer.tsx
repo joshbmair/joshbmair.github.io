@@ -36,7 +36,7 @@ const Footer: FunctionComponent = (): JSX.Element => {
   return (
     <footer>
       <p>
-        <small>This site was built by Josh Birlingmair using Gatsby.js</small>
+        <small>This site was built using Gatsby.js. View my source code on <a href="https://github.com/joshbmair/joshbmair.github.io">GitHub</a></small>
       </p>
       <p>
         {socialProfiles.map((profile: SocialProfile) => {
