@@ -17,10 +17,8 @@ const Section: FunctionComponent<SectionProps> = (
   const { id } = props;
 
   return (
-    <div className="page">
-      <div id={id} className="section">
-        <SectionContent {...props} />
-      </div>
+    <div id={id} className="section">
+      <SectionContent {...props} />
     </div>
   );
 };
