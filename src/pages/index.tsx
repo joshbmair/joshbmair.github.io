@@ -6,12 +6,10 @@ import Experience from "../components/sections/Experience";
 import Footer from "../components/Footer";
 import Welcome from "../components/sections/Welcome";
 import { HeadFC } from "gatsby";
-import Navigator from "../components/Navigator";
 
 const IndexPage: FunctionComponent = (): JSX.Element => {
   return (
     <>
-      <Navigator />
       <Welcome />
       <About />
       <Experience />
