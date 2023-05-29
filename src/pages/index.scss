@@ -1,14 +1,14 @@
 @import "../styles/constants.scss";
 
 a {
-  color: inherit;
-  text-decoration: underline;
-  text-decoration-color: $red;
-  text-decoration-thickness: 2px;
-
+  color: $red;
+  text-decoration: none;
+  
   &:hover {
-    color: $red;
     cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: $red;
+    text-decoration-thickness: 2px;
   }
 }
 
